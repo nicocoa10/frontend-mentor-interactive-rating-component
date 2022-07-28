@@ -1,0 +1,127 @@
+.hide {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(216, 12%, 8%);
+}
+
+
+.container {
+    width: 90%;
+    max-width: 375px;
+    margin: 6rem auto;
+    background-color: hsl(213, 19%, 18%);
+    padding: 2rem 0;
+    border-radius: 15px;
+    /* border: 1px solid red; */
+
+}
+
+.card-container {
+    background-color: hsl(213, 19%, 18%);
+    width: 90%;
+    margin: 0 auto;
+    max-width: 375px;
+
+    /* border: 1px solid red; */
+    margin-bottom: -40px;
+}
+
+.sub-title {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 1.3rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-container {
+    margin-top: 1rem 0;
+}
+
+.rating {
+    background-color: hsl(216, 12%, 54%);
+    opacity: 30%;
+    padding: 1em 1.3em;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.rating:hover {
+    opacity: 100%;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit {
+    width: 100%;
+    margin-top: 1rem;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    padding: 1em 1.3em;
+    border-radius: 50px;
+    font-weight: regular;
+    letter-spacing: 1px;
+
+}
+
+.submit:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.selected {
+    opacity: 100%;
+}
+
+.thankyou-container {
+    background-color: hsl(213, 19%, 18%);
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.response {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: hsl(213, 17%, 21%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 50px;
+}
+
+@media (min-width: 1440px) {
+
+    .container {
+        width: 80%;
+        margin: 18rem auto;
+        /* max-width: 400px; */
+    }
+
+    .card-container {
+        width: 85%;
+        margin: 0 auto;
+        /* max-width: 500px; */
+
+        margin-bottom: -40px;
+    }
+
+}
